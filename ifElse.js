@@ -95,11 +95,11 @@ const lastVowel = text.lastIndexOf("i")
 
 console.log(lastVowel)
 
-// Actiivty 8 - checking if the first and last letters in a string are the same
+// Actiivty 8 - checking if the first and last letters in a string are the same (incomplete)
 
 let word = "Are these the same?"
 
-// Activity 9 - 
+// Activity 9 - checking if the sum of two variables equals an even number, or returning it if it doesn't
 
 let num1 = 16
 let num2 = 24

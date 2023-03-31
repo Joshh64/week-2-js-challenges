@@ -21,3 +21,11 @@ console.log(Math.ceil(Math.random()*10));
 
 console.log("All around the world".charAt(7).toUpperCase())
 //this isolated the 8th character (js starts counting at 0), and capitalises it
+
+// Activity 1 - log a grid shape into the console
+
+console.log (" |   |   |  \n |   |   |   \n |   |   |   ")
+console.log ("-----------")
+console.log (" |   |   |  \n |   |   |   \n |   |   |   ")
+console.log ("-----------")
+console.log (" |   |   |  \n |   |   |   \n |   |   |   ")

@@ -39,7 +39,7 @@ if(day === "Saturday" || day === "Sunday") {
 }
 console.log(alarmMsg)
 
-// Activity 2
+// Activity 2 - create an object with key values, and then use methods to produce a string in the console
 
 let pet = {
     petName: "Harry",
@@ -53,7 +53,7 @@ let pet = {
 
 console.log(pet.eating())
 
-// Activity 3
+// Activity 3 - create a program acting like a coffee shop using objects and key values that takes someone's order using methods and calculates the sum based on what they ordered  
 
 let shop = { 
     menu: ["coffee", 2.5, "tea", 1.5, "cake", 4],

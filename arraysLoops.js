@@ -98,6 +98,61 @@ while(numberArray.length < 6) {
 
 console.log(numberArray);
 
+// Activity 3 - create a loop that counts down from 9 to 0
+
+var countDown = 10;
+
+while (countDown > 0){
+    countDown--;
+    console.log(countDown);
+}
+
+// Activity 4 - create an array of 4 films. use a for loop to display each film is said array, and then an if statement to check if the third film is Ghostbusters
+
+let films = ["Wall-E", "Ghostbusters", "Die Hard", "Star Wars"]
+
+for (let i = 0; i < films.length; i++) {
+    console.log(films[i]);
+  } 
+  
+  if (films[2] == "Ghostbusters") {
+    console.log("Yay its Ghostbusters")
+  } else {
+    console.log("Boo! We want Ghostbusters!")
+  }
+
+// Activity 5 - generate 6 random numbers inbetween 1-30. for each one, check if it's divisible by 7 or not, and log a message to the console stating which it is (incomplete)
+
+let randomNumbers = [];
+
+while(randomNumbers.length < 6) {
+  let random = Math.round(Math.random() * 30);
+  if(randomNumbers.indexOf(random) === -1) {
+    randomNumbers.push(random);
+  }
+}
+
+console.log(randomNumbers)
+
+// Activity 6 - create a mutual followers program (incomplete)
+
+let bobsFollowers = ["Dave", "Jin", "Randy", "Vanessa"]
+let hannahsFollowers = ["Jin", "Randy", "Jill", "Claire"]
+
+// Activity 7 - research do...while loops and find the difference between them and for loops. Give an example, and list the pros and cons
+
+console.log("A for loop is for when you want an action to repeat multiple times, and best used when you know the amount of iterations you want ahead of time. For example, you can use it to manage someone's order at a restaurant/cafe and how many of an item they order. In short, they are very straight forward as it allows you to target any given string or item in an array, however they are very restricting as you can't determine where you want it to start and for how long you want it to go on for and it can't traverse elements in reverse order.")
+
+console.log("A while loop is for when you want user input and when you don't know how many times you want it to happen. For example, if you ask the user for a number between a specific range, you can use a while loop to repeat until they finally hit a number in said range. While loops are very easy to understand and use, and there's no real disadvantages to using one")
+
+console.log("A do...while loop statement allows for the block of code to be executed at least once, or so long as a condition is true, however this can be seen as a disadvantage, as it means it will run indefinitely, even if you don't want it to. A way of using one is prompting a user for input and then validating that input. The loop ensures that the user is prompted for input at least once, and then continues to prompt until valid input is received.")
+
+// Example:
+// do {
+//     code block to be executed
+//   }
+//   while (condition);
+
 // Cinema Ticket
 
 let age = 80;
